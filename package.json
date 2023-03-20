@@ -1,5 +1,5 @@
 {
-  "name": "react-native-cards-swipe",
+  "name": "@meerasolution/react-native-cards-swipe",
   "version": "1.0.0",
   "description": "Powerful RN Card Swiper",
   "main": "lib/commonjs/index",
@@ -36,7 +36,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/meerasolution/react-native-cards-swipe",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meerasolution/react-native-cards-swipe.git"
+  },
   "author": "MS",
   "license": "MIT",
   "bugs": {
@@ -153,5 +156,8 @@
         }
       ]
     ]
+  },
+  "directories": {
+    "example": "example"
   }
 }
