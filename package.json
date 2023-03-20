@@ -1,7 +1,7 @@
 {
   "name": "@meerasolution/react-native-cards-swipe",
   "version": "1.0.1",
-  "description": "Powerful RN Card Swiper",  
+  "description": "Powerful RN Card Swiper",
   "react-native": "src/index",
   "source": "src/index",
   "files": [
@@ -21,7 +21,7 @@
   "scripts": {
     "test": "jest",
     "typescript": "tsc --noEmit",
-    "lint": "eslint \"**/*.{js,ts,tsx}\"",    
+    "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "release": "release-it",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
@@ -155,5 +155,6 @@
   },
   "directories": {
     "example": "example"
-  }
+  },
+  "main": "src/index.tsx"
 }
